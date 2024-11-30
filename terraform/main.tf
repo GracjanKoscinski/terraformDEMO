@@ -14,5 +14,5 @@ variable "tenant_id" {}
 
 resource "azurerm_resource_group" "test" {
   name     = "test"
-  location = "East US"
+  location = "polandcentral"
 }
